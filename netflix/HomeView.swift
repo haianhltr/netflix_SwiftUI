@@ -123,7 +123,7 @@ struct HomeView: View {
                         
                         Spacer()
                         Button(action: {
-                           showGenreSelection = false
+                            showGenreSelection = false
                         }, label: {
                             Image(systemName: "xmark.circle.fill")
                                 .font(.system(size: 40))
